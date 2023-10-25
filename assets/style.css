@@ -54,10 +54,13 @@ li {
   vertical-align: middle;
 }
 
+main {
+  padding: 15px;
+}
+
 h1,
 h2 {
   font-weight: 800;
-  margin-left: 15px;
 }
 
 .cards-container {
@@ -68,7 +71,7 @@ h2 {
 }
 
 .cards {
-  width: 45%;
+  width: 250px;
   height: 290px;
   background-color: #fef7e2;
   border-radius: 40px;
@@ -103,7 +106,6 @@ h2 {
 
 .cards button {
   align-self: center;
-  margin-top: 5px;
   border-style: none;
   width: 160px;
   height: 30px;
@@ -112,6 +114,7 @@ h2 {
   color: #742204;
   background-color: #ffdf7f;
   border-radius: 20px;
+  margin-top: 20px;
 }
 
 h2 {
@@ -119,7 +122,6 @@ h2 {
 }
 
 .article-container {
-  margin-inline: 15px;
   background-color: #fef7e2;
   padding: 25px;
   border-radius: 30px;
